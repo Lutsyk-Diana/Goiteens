@@ -1,6 +1,6 @@
 name = 'Diana'
 city = 'Sambir'
-age = '14'
-height = '175'
-pet = 'none'
+age = int('14')
+height = float('1.73')
+pet = bool(None)
 print(f'your name is {name}, your city is {city},your age is {age},your height is {height},your pet is {pet}')
