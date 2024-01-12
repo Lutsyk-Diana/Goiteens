@@ -4,3 +4,4 @@ age = '14'
 height = '175'
 pet = 'none'
 print(f'your name is {name}, your city is {city},your age is {age},your height is {height},your pet is {pet}')
+first edit
