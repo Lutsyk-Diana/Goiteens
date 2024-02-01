@@ -1,0 +1,28 @@
+6.my_list = [1,2,3,4,5]
+counter=1
+for i in my_list:
+    for i in my_list:
+        counter *= i
+        print(counter)
+7.l1=[1,2,3,4,5,'']
+l2=[]
+for i in l1:
+    if i !='':
+        l2.append(i)
+print(l2)
+8.l1=[1,2,3,4,5,5,8,8,2,9,9]
+l2=[]
+for i in l1:
+    if i !=5 and i!=8 and i!=9:
+     l2.append(i)
+print(l2)
+10.my_list=[1,-2,3,-4,5,5,-8,8,2,9,-9]
+positive_counter=0
+negative_counter=0
+for i in my_list:
+ if i>0:
+    positive_counter+=1
+ if i<0:
+    negative_counter+=1
+print('number positive_counter:',positive_counter)
+print('number negative_counter:',negative_counter)
