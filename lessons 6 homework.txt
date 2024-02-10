@@ -1,0 +1,17 @@
+friend = [['Sofia', 14, 'math'], ['Vika', 14, 'chemistry'], ['Alina', 15, 'art'], ['Marta', 14, 'pe'], ['Bogdana', 15, 'chemistry']]
+friend_copy = friend.copy()
+print(friend_copy)
+print(friend)
+
+for person in friend:
+   person[1]+=1
+print(friend)
+for person in friend:
+ if person[1]==16:
+    friend.remove(person)
+print(friend_copy)
+print(friend)
+friend_2=[["Михайло","13 years","Favorite subject: Physical Education"],["Іван","14 years","Favorite subject: Art"],["Микола","12 years","Favorite subject: Physical Education"],
+["Михайло","13 years","Favorite subject: Physical Education"],["Артем","13 years","Favorite subject: Art"]]
+friend_copy.extend(friend_2)
+print(friend_copy)
