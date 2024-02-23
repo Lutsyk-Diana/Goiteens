@@ -1,0 +1,46 @@
+my_str1=int(input('enter :'))
+my_str2=int(input('enter :'))
+my_str3=int(input('enter :'))
+print(f'2{my_str1}2,2{my_str2}2,2{my_str3}2')
+
+my_str='euro'
+start=1
+end=5
+index=(my_str.find('r',start-1,end))
+if index != -1:
+    print(index + 1)
+else:
+    print(0)
+
+my_str = 'Africa'
+my_str2 = 'Oceania'
+my_str = my_str.lower()
+if my_str[0] == my_str[-1]:
+    print(True)
+else:
+    print(False)
+    my_str2 = my_str2.lower()
+if my_str2[0] == my_str2[-1]:
+    print(True)
+else:
+    print('False')
+
+my_str1='Hansson'
+my_str2='David'
+my_str3='Heinemeier'
+print(my_str2[0]+'.',my_str3[0]+'.',my_str1)
+
+str1 ='Linus'
+str2 ='Guido'
+if len(str1) > len(str2):
+    print(str1)
+elif len(str2) > len(str1):
+        print(str2)
+else:
+    print("equally")
+
+my_str1 = 'A'
+my_str2 = 'B'
+print(f"""{my_str1} and {my_str2} sat in the tree.
+{my_str1} had fallen,{my_str2} was stolen.
+What remaining in the tree?""")
